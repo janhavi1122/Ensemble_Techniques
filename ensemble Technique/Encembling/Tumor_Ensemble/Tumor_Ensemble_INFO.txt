@@ -1,0 +1,9 @@
+This project applies the AdaBoost classifier to predict tumor characteristics based on a dataset. The process involves several steps:
+
+Data Exploration: The dataset is loaded, and basic information such as column names, data types, and missing values are checked.
+Data Visualization: Various visualizations, including count plots, histograms, and heatmaps, are used to explore the relationships between features and the target variable (dimension_worst).
+Outlier Handling: Outliers in features like id, diagnosis, radius_mean, and texture_mean are managed using Winsorization.
+Feature Engineering: Skewed features are addressed with log transformations, and categorical variables are encoded using one-hot encoding.
+Data Preprocessing: Numerical features are standardized using StandardScaler, and the data is split into training and test sets.
+Modeling: An AdaBoost classifier is trained on the training data with hyperparameters like learning_rate=0.2 and n_estimators=5000.
+Evaluation: The model's performance is evaluated on the test set using accuracy and confusion matrix metrics.

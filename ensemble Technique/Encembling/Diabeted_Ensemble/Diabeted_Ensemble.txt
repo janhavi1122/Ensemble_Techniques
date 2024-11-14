@@ -1,0 +1,9 @@
+This project applies the AdaBoost classifier to predict diabetes based on a dataset. It involves:
+
+Data Exploration: Loading the data, inspecting the columns, and checking for missing values.
+Data Visualization: Visualizing feature distributions and correlations using seaborn plots and heatmaps.
+Outlier Handling: Using Winsorization to handle outliers in certain features.
+Feature Engineering: Addressing skewness in the data using log transformation, encoding categorical features, and scaling numerical features.
+Data Splitting: Splitting the data into training and test sets.
+Modeling: Training an AdaBoost classifier with the training set.
+Model Evaluation: Evaluating the model's performance using accuracy and a confusion matrix on the test set.
